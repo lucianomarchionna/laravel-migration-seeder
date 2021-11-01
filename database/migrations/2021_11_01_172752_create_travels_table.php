@@ -19,7 +19,7 @@ class CreateTravelsTable extends Migration
             $table->string('destination');
             $table->boolean('stopovers'); //scali
             $table->date('departure_date');
-            $table->float('price');
+            $table->float('price', 10, 2);
             $table->timestamps();
         });
     }
