@@ -7,11 +7,11 @@
     </head>
     <body>
         @foreach ($travels as $travel)
-        <p><h2>Città di partenza: </h2>{{ $travel['departure'] }}</p>
-        <p><h2>Città di arrivo: </h2>{{ $travel['destination'] }}</p>
-        <p><h2>Scali: </h2>{{ $travel['stopovers'] }}</p>
-        <p><h2>Data partenza: </h2>{{ $travel['departure_date'] }}</p>
-        <p><h2>Prezzo: </h2>{{ $travel['price'] }} €</p>
-    @endforeach
+            <p><h2>Città di partenza: </h2>{{ $travel['departure'] }}</p>
+            <p><h2>Città di arrivo: </h2>{{ $travel['destination'] }}</p>
+            <p><h2>Scali: </h2>{{ $travel['stopovers'] }}</p>
+            <p><h2>Data partenza: </h2>{{ $travel['departure_date'] }}</p>
+            <p><h2>Prezzo: </h2>{{ $travel['price'] }} €</p><br>
+        @endforeach
     </body>
 </html>
